@@ -1,4 +1,4 @@
-# react-hooks-jest-tsx
+# react-hooks-typescript
 
 
 
