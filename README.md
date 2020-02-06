@@ -1,5 +1,7 @@
 # react-hooks-typescript
 
+![screenshot](https://raw.githubusercontent.com/Jon-Dickinson/react-hooks-typescript/master/src/images/screenshot.png)
+
 ## useState
 
 ```javascript
