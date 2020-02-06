@@ -1,10 +1,16 @@
 # react-hooks-typescript
 
+## useState
 
+```javascript
+const [X, setX] = useState(0);
+```
 
+## useEffect
 
-
-
+```javascript
+useEffect(() => {})
+```
 
 ## .tsx
 

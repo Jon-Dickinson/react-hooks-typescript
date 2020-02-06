@@ -7,7 +7,6 @@ import ContentC from "./content/ContentC";
 import ContentD from "./content/ContentD";
 import Counter from "./Hook_useState";
 import CounterB from "./Hook_useEffect";
-import CounterClass from "./CounterClass";
 
 export default function App() {
   return (
@@ -26,10 +25,6 @@ export default function App() {
           <CounterB />
         </div>
         <ContentD />
-        <div className="horizontal-inline-flex">
-          <CounterClass />
-          <CounterClass />
-        </div>
       </div>
     </div>
   );
