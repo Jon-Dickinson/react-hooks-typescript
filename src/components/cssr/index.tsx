@@ -15,77 +15,77 @@ import { ICssrProps } from './types';
 // `;
 
 export function Cssr({ children, ...otherProps }: PropsWithChildren<ICssrProps>) {
-	// return (
-	// 	<Root { ...otherProps }>
-	// 		{ children }
-	// 	</Root>
-	// );
+  // return (
+  // 	<Root { ...otherProps }>
+  // 		{ children }
+  // 	</Root>
+  // );
 
-	const {
-		baseWrapper,
-		direction,
-		height,
-		justify,
-		background,
-		center,
-		flexDirection,
-		flexWrap,
-		padding
-	} = otherProps;
+  const {
+    baseWrapper,
+    direction,
+    height,
+    justify,
+    background,
+    center,
+    flexDirection,
+    flexWrap,
+    padding
+  } = otherProps;
 
-	return (
-		<ClassNames>
-			{
-				({ cx }) => (
-					<div className={ cx(
-						'cssr',
+  return (
+    <ClassNames>
+      {
+        ({ cx }) => (
+          <div className={ cx(
+            'cssr',
 
-						/* =========================================================
-						   parent containers
-						   ========================================================= */
-						{ [`${ baseWrapper === 'flex' ? 'if' : 'block' }__base-wrapper`]: !!baseWrapper },
+            /* =========================================================
+               parent containers
+               ========================================================= */
+            { [`${ baseWrapper === 'flex' ? 'if' : 'block' }__base-wrapper`]: !!baseWrapper },
 
-						/* =========================================================
-						   directional wrappers
-						   ========================================================= */
-						{ [`${ direction }-inline-flex`]: !!direction },
+            /* =========================================================
+               directional wrappers
+               ========================================================= */
+            { [`${ direction }-inline-flex`]: !!direction },
 
-						/* =========================================================
-						   height
-						   ========================================================= */
-						{ [`min-h-${ height }`]: !!height },
+            /* =========================================================
+               height
+               ========================================================= */
+            { [`min-h-${ height }`]: !!height },
 
-						/* =========================================================
-						   justify-content
-						   ========================================================= */
-						{ [`justify--${ justify }`]: !!justify },
+            /* =========================================================
+               justify-content
+               ========================================================= */
+            { [`justify--${ justify }`]: !!justify },
 
-						/* ==========================================================================
-						   utility classes
-						   ========================================================================== */
-						{ [`bg-${ background }`]: !!background },
+            /* ==========================================================================
+               utility classes
+               ========================================================================== */
+            { [`bg-${ background }`]: !!background },
 
-						/* =========================================================
-						   center align content
-						   ========================================================= */
-						{ [`${ center }__mid-container`]: !!center },
+            /* =========================================================
+               center align content
+               ========================================================= */
+            { [`${ center }__mid-container`]: !!center },
 
-						/* =========================================================
-						   flex-flow
-						   ========================================================= */
-						{ [`direction--${ flexDirection }`]: !!flexDirection },
-						{ [`wrap--${ flexWrap }`]: !!flexWrap },
+            /* =========================================================
+               flex-flow
+               ========================================================= */
+            { [`direction--${ flexDirection }`]: !!flexDirection },
+            { [`wrap--${ flexWrap }`]: !!flexWrap },
 
-						/* =========================================================
-						   padding
-						   ========================================================= */
-						{ [`pad-${ padding }`]: !!padding },
-					) }>
-						{ children }
-					</div>
-				)
-			}
-		</ClassNames>
+            /* =========================================================
+               padding
+               ========================================================= */
+            { [`pad-${ padding }`]: !!padding },
+          ) }>
+            { children }
+          </div>
+        )
+      }
+    </ClassNames>
 
-	);
+  );
 }
