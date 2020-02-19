@@ -1054,97 +1054,97 @@ input::-ms-tooltip {}
    font weight
    ========================================================= */
 
-.font-w--300 {
-   font-weight: 300 !important;
-}
+/*.font-w--300 {*/
+/*   font-weight: 300 !important;*/
+/*}*/
 
-.font-w--500 {
-   font-weight: 500 !important;
-}
+/*.font-w--500 {*/
+/*   font-weight: 500 !important;*/
+/*}*/
 
-.font-w--700 {
-   font-weight: bold !important;
-}
+/*.font-w--700 {*/
+/*   font-weight: bold !important;*/
+/*}*/
 
 /* =========================================================
    font size
    ========================================================= */
 
-.font-s--11 {
-   font-size: 11px !important;
-}
+/*.font-s--11 {*/
+/*   font-size: 11px !important;*/
+/*}*/
 
-.font-s--12 {
-   font-size: 12px !important;
-}
+/*.font-s--12 {*/
+/*   font-size: 12px !important;*/
+/*}*/
 
-.font-s--13 {
-   font-size: 13px !important;
-}
+/*.font-s--13 {*/
+/*   font-size: 13px !important;*/
+/*}*/
 
-.font-s--16 {
-   font-size: 14px !important;
-}
+/*.font-s--16 {*/
+/*   font-size: 14px !important;*/
+/*}*/
 
-.font-s--15 {
-   font-size: 15px !important;
-}
+/*.font-s--15 {*/
+/*   font-size: 15px !important;*/
+/*}*/
 
-.font-s--16 {
-   font-size: 16px !important;
-}
+/*.font-s--16 {*/
+/*   font-size: 16px !important;*/
+/*}*/
 
-.font-s--17 {
-   font-size: 17px !important;
-}
+/*.font-s--17 {*/
+/*   font-size: 17px !important;*/
+/*}*/
 
-.font-s--18 {
-   font-size: 18px !important;
-}
+/*.font-s--18 {*/
+/*   font-size: 18px !important;*/
+/*}*/
 
-.font-s--19 {
-   font-size: 19px !important;
-}
+/*.font-s--19 {*/
+/*   font-size: 19px !important;*/
+/*}*/
 
-.font-s--22 {
-   font-size: 22px !important;
-}
+/*.font-s--22 {*/
+/*   font-size: 22px !important;*/
+/*}*/
 
-.font-s--24 {
-   font-size: 24px !important;
-}
+/*.font-s--24 {*/
+/*   font-size: 24px !important;*/
+/*}*/
 
-.font-s--26 {
-   font-size: 26px !important;
-}
+/*.font-s--26 {*/
+/*   font-size: 26px !important;*/
+/*}*/
 
-.font-s--28 {
-   font-size: 28px !important;
-}
+/*.font-s--28 {*/
+/*   font-size: 28px !important;*/
+/*}*/
 
-.font--s-1-25 {
-   font-size: 1.25rem !important;
-}
+/*.font--s-1-25 {*/
+/*   font-size: 1.25rem !important;*/
+/*}*/
 
-.font--s-1-5 {
-   font-size: 1.5rem !important;
-}
+/*.font--s-1-5 {*/
+/*   font-size: 1.5rem !important;*/
+/*}*/
 
-.font--s-2 {
-   font-size: 2rem !important;
-}
+/*.font--s-2 {*/
+/*   font-size: 2rem !important;*/
+/*}*/
 
-.font--s-2-25 {
-   font-size: 2.25rem !important;
-}
+/*.font--s-2-25 {*/
+/*   font-size: 2.25rem !important;*/
+/*}*/
 
-.font--s-2-5 {
-   font-size: 2.5rem !important;
-}
+/*.font--s-2-5 {*/
+/*   font-size: 2.5rem !important;*/
+/*}*/
 
-.font--s-3 {
-   font-size: 3rem !important;
-}
+/*.font--s-3 {*/
+/*   font-size: 3rem !important;*/
+/*}*/
 
 /* =========================================================
    text-align
@@ -2203,7 +2203,7 @@ input::-ms-tooltip {}
 
 
 @media screen and (max-width: 768px) {
-   
+
    .padding-lr-0--under-768 {
       padding-left: 0 !important;
       padding-right: 0 !important;
@@ -2220,7 +2220,7 @@ input::-ms-tooltip {}
    width
    ========================================================= */
 
-   
+
 /* min-width px */
 
 .width-auto {

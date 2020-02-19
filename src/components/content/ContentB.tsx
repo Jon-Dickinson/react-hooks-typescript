@@ -6,18 +6,18 @@ export default function ContentB() {
       <p className="font-s--18 font-w--500 margin-t-50">
         Array destructuring:
       </p>
-<xmp className="margin-tb-20">
+<pre className="margin-tb-20">
 const [fruit, setFruit] = useState('banana');
-</xmp>
-<xmp className="margin-tb-5">
+</pre>
+<pre className="margin-tb-5">
 variables = fruit and setFruit
-</xmp>
-<xmp className="margin-tb-5">
+</pre>
+<pre className="margin-tb-5">
 fruit is set to the first value returned by useState
-</xmp>
-<xmp className="margin-tb-5">
+</pre>
+<pre className="margin-tb-5">
 setFruit is the second value returned by useState
-</xmp>
+</pre>
     </div>
   );
 }

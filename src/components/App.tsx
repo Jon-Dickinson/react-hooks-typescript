@@ -7,25 +7,26 @@ import ContentC from "./content/ContentC";
 import ContentD from "./content/ContentD";
 import Counter from "./Hook_useState";
 import CounterB from "./Hook_useEffect";
+import { Cssr } from './cssr';
 
 export default function App() {
   return (
-    <div className="if__base-wrapper direction--column pad-tb-0">
+    <Cssr baseWrapper="flex" flexDirection="column" padding="tb-0">
       <Header />
-      <div className="flex__mid-container max-w-768 direction--column">
+      <Cssr center="flex" maxWidth="768" flexDirection="column">
         <ContentA />
-        <div className="horizontal-inline-flex">
+        <Cssr direction="horizontal">
           <Counter />
           <Counter />
-        </div>
+        </Cssr>
         <ContentB />
         <ContentC />
-        <div className="horizontal-inline-flex">
+        <Cssr direction="horizontal">
           <CounterB />
           <CounterB />
-        </div>
+        </Cssr>
         <ContentD />
-      </div>
-    </div>
+      </Cssr>
+    </Cssr>
   );
 }
